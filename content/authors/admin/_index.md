@@ -82,6 +82,6 @@ Engineering from Shenzhen University and conducted the neural feedback system
 construction in MINDLab. Meanwhile, I am a data science enthusiast, have 
 won multiple medals on Kaggle.
 
-[//]: # ([//]: #	&#40; Path: content/authors/admin/_index.md)
+Path: content/authors/admin/_index.md
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
