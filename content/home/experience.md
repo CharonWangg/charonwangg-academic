@@ -25,7 +25,7 @@ experience:
   - title: Student Researcher in Kording Lab
     company: University of Pennsylvania
     company_url: 'http://kordinglab.com/'
-    company_logo: kordinglab
+    company_logo: org-x
     location: United States
     date_start: '2021-11-01'
     date_end: ''
@@ -39,7 +39,7 @@ experience:
   - title: Teaching Assistant
     company: Neuromatch Academy
     company_url: 'https://academy.neuromatch.io/'
-    company_logo: kordinglab
+    company_logo: org-x
     location: University of Pennsylvania, United States
     date_start: '2021-11-01'
     date_end: ''
@@ -53,7 +53,7 @@ experience:
   - title: Engineer Intern
     company: Kerry Rehab
     company_url: 'https://academy.neuromatch.io/'
-    company_logo: kordinglab
+    company_logo: org-x
     location: Shenzhen, China
     date_start: '2020-11-01'
     date_end: '2020-12-31'
@@ -67,7 +67,7 @@ experience:
   - title: Student Researcher in Laboratory of Medical Informatics & Neural Dynamics
     company: Shenzhen University
     company_url: 'http://www.zgzhang-lab.net/'
-    company_logo: mindlab
+    company_logo: org-x
     location: Shenzhen, China
     date_start: '2019-09-01'
     date_end: '2021-05-01'
