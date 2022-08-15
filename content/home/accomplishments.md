@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - date_end: ''
+  - date_end: 
     date_start: '2021-03-01'
     description: |2-
         Participated and won more than two silver medals in the Kaggle Competitions:
@@ -33,7 +33,7 @@ item:
         * 38th place [chaii - Hindi and Tamil Question Answering (Top 5%)](https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering)
         * 50th place [VinBigData Chest X-ray Abnormalities Detection (Top 5%)](https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection)
         * 73rd place [Tabular Playground Series - Nov 2021 (Top 5%)](https://www.kaggle.com/competitions/tabular-playground-series-nov-2021)
-    organization: kaggle
+    organization: Kaggle
     organization_url: https://www.kaggle.com
     title: 'Kaggle Expert'
     url: ''
@@ -47,7 +47,7 @@ item:
          * Outstanding Bachelor Thesis
          * Honor Prize in the 2019 International Mathematical Contest in Modeling
          * Third Place in the 2019 National Biomedical Engineering Design Competition
-    organization: szu
+    organization: Shenzhen University
     organization_url: https://www.szu.edu.cn/
     title: Fellowships and Awards
     url: ''
