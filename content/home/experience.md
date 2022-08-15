@@ -64,20 +64,19 @@ experience:
         * Modelling
         * Deploying
 
-    - title: Student Researcher in Laboratory of Medical Informatics & Neural Dynamics
-    - # Brain-Computer Interface System Developer
-      company: Shenzhen University
-      company_url: 'http://www.zgzhang-lab.net/'
-      company_logo: mindlab
-      location: Shenzhen, China
-      date_start: '2019-09-01'
-      date_end: '2021-05-01'
-      description: |2-
-            Responsibilities include:
+  - title: Student Researcher in Laboratory of Medical Informatics & Neural Dynamics
+    company: Shenzhen University
+    company_url: 'http://www.zgzhang-lab.net/'
+    company_logo: mindlab
+    location: Shenzhen, China
+    date_start: '2019-09-01'
+    date_end: '2021-05-01'
+    description: |2-
+         Responsibilities include:
     
-            * Developed a Python based real-time brain wave visualization tool for host computer
-            * Developed a multi-module C++ based real-time Neurofeedback system on OpenBCI
-            * Designed and conducted tests to quantify the intensity and depth of the system’s modulation of brain wave
+         * Developed a Python based real-time brain wave visualization tool for host computer
+         * Developed a multi-module C++ based real-time Neurofeedback system on OpenBCI
+         * Designed and conducted tests to quantify the intensity and depth of the system’s modulation of brain wave
 design:
       columns: '2'
 ---
