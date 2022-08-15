@@ -26,8 +26,9 @@ item:
   - certificate_url: https://www.kaggle.com/charonwangg
     date_end: ''
     date_start: '2021-03-01'
-    description: Participated and won 4 silver medals in the Kaggle Competitions
-                 |2-
+    description: |2-
+                 Participated and won more than two silver medals in the Kaggle Competitions
+  - 
                       * 17th place Sartorius - Cell Instance Segmentation (Top 2%)
                       * 32nd place UW-Madison GI Tract Image Segmentation (Top 3%)
                       * 38th place chaii - Hindi and Tamil Question Answering (Top 5%)
