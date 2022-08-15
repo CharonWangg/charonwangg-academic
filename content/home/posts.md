@@ -12,6 +12,9 @@ weight: 60
 title: Recent Posts
 subtitle:
 
+# active or not
+active: false
+
 content:
   # Filter on criteria
   filters:

@@ -12,6 +12,9 @@ weight: 80
 title: Featured Publications
 subtitle: ''
 
+# active or not
+active: false
+
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication

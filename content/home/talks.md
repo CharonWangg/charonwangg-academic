@@ -12,6 +12,9 @@ weight: 70
 title: 'Recent & Upcoming Talks'
 subtitle:
 
+# active or not
+active: false
+
 content:
   # Page type to display. E.g. post, event, publication...
   page_type: event
