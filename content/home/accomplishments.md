@@ -27,13 +27,14 @@ item:
     date_end: ''
     date_start: '2021-03-01'
     description: |2-
-                 Participated and won more than two silver medals in the Kaggle Competitions
-  - 
-                      * 17th place Sartorius - Cell Instance Segmentation (Top 2%)
-                      * 32nd place UW-Madison GI Tract Image Segmentation (Top 3%)
-                      * 38th place chaii - Hindi and Tamil Question Answering (Top 5%)
-                      * 50th place VinBigData Chest X-ray Abnormalities Detection (Top 5%)
-                      * 73rd place Tabular Playground Series - Nov 2021 (Top 5%)
+            Participated and won more than two silver medals in the Kaggle Competitions:
+
+                 * 17th place Sartorius - Cell Instance Segmentation (Top 2%)
+                 * 32nd place UW-Madison GI Tract Image Segmentation (Top 3%)
+                 * 38th place chaii - Hindi and Tamil Question Answering (Top 5%)
+                 * 50th place VinBigData Chest X-ray Abnormalities Detection (Top 5%)
+                 * 73rd place Tabular Playground Series - Nov 2021 (Top 5%)
+
     organization: Kaggle
     organization_url: https://www.kaggle.com
     title: 'Kaggle Expert'
