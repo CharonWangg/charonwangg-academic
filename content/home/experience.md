@@ -23,10 +23,10 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Student Researcher
-    company: Kording Lab, University of Pennsylvania
+    company: Kording Lab,
     company_url: 'http://kordinglab.com/'
     company_logo: org-x
-    location: Pennsylvania, United States
+    location: University of Pennsylvania, Pennsylvania, United States
     date_start: '2021-11-01'
     date_end: ''
     description: |2-
@@ -37,7 +37,7 @@ experience:
         * Deploying
 
   - title: Teaching Assistant
-    company: Neuromatch Academy
+    company: Neuromatch Academy Deep Learning Program
     company_url: 'https://academy.neuromatch.io/'
     company_logo: org-x
     location: California, United States
@@ -65,10 +65,10 @@ experience:
         * Deploying
 
   - title: Student Researcher
-    company: Laboratory of Medical Informatics & Neural Dynamics, Shenzhen University
+    company: Laboratory of Medical Informatics & Neural Dynamics
     company_url: 'http://www.zgzhang-lab.net/'
-    company_logo: org-x
-    location: Guangdong, China
+    company_logo: mindlab
+    location: Shenzhen University, Guangdong, China
     date_start: '2019-09-01'
     date_end: '2021-05-01'
     description: |2-
