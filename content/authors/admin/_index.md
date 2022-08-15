@@ -14,8 +14,7 @@ organizations:
     url: https://be.seas.upenn.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include causal discovery, causal machine learning and machine learning 
-application in biomedical informatics
+bio: My research interests include causal discovery, causal machine learning and machine learning application in biomedical informatics
 
 # Interests to show in About widget
 interests:
@@ -80,8 +79,8 @@ application in biomedical informatics. Currently, I am doing research about
 meta-learning causal discovery in large complex system, advised by 
 Konrad Kording. Prior to UPenn, I earned a BEng degree in Biomedical 
 Engineering from Shenzhen University and conducted the neural feedback system 
-construction in MINDLab. Meanwhile, I am a data science enthusiast, have 
-won multiple medals on Kaggle.
+development in MINDLab. Meanwhile, I am a data science enthusiast, have 
+won multiple medals on Kaggle. 
 
 [//]: # (Path: content/authors/admin/_index.md)
 
