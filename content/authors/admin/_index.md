@@ -14,7 +14,8 @@ organizations:
     url: https://be.seas.upenn.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include causal discovery, causal machine learning and machine learning 
+application in biomedical informatics
 
 # Interests to show in About widget
 interests:
@@ -64,7 +65,7 @@ social:
 # and uncomment the lines below.
 icon: cv
 icon_pack: ai
-link: uploads/resume.pdf
+link: static/uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'wsinyue@seas.upenn.edu'

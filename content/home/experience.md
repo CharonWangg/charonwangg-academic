@@ -39,7 +39,7 @@ experience:
   - title: Teaching Assistant
     company: Neuromatch Academy Deep Learning Program
     company_url: 'https://academy.neuromatch.io/'
-    company_logo: org-x
+    company_logo: nma
     location: California, United States
     date_start: '2021-11-01'
     date_end: ''
@@ -53,7 +53,7 @@ experience:
   - title: Engineer Intern
     company: Kerry Rehab
     company_url: 'https://academy.neuromatch.io/'
-    company_logo: org-x
+    company_logo: kerry
     location: Guangdong, China
     date_start: '2020-11-01'
     date_end: '2020-12-31'
