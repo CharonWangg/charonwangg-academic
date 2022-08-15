@@ -25,7 +25,7 @@ date_format: Jan 2006
 item:
   - date_end: ''
     date_start: '2021-03-01'
-    description:
+    description: |2-
         Participated and won more than two silver medals in the Kaggle Competitions:
 
         * 17th place [Sartorius - Cell Instance Segmentation (Top 2%)](https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation)
