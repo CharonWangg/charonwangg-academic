@@ -22,12 +22,12 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Student Researcher in Kording Lab
+    company: University of Pennsylvania
+    company_url: 'http://kordinglab.com/'
+    company_logo: kordinglab
+    location: United States
+    date_start: '2021-11-01'
     date_end: ''
     description: |2-
         Responsibilities include:
@@ -36,15 +36,46 @@ experience:
         * Modelling
         * Deploying
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Teaching Assistant
+    company: Neuromatch Academy
+    company_url: 'https://academy.neuromatch.io/'
+    company_logo: kordinglab
+    location: University of Pennsylvania, United States
+    date_start: '2021-11-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Analysing
+        * Modelling
+        * Deploying
 
+  - title: Engineer Intern
+    company: Kerry Rehab
+    company_url: 'https://academy.neuromatch.io/'
+    company_logo: kordinglab
+    location: Shenzhen, China
+    date_start: '2020-11-01'
+    date_end: '2020-12-31'
+    description: |2-
+        Responsibilities include:
+        
+        * Analysing
+        * Modelling
+        * Deploying
+
+    - title: Student Researcher in Laboratory of Medical Informatics & Neural Dynamics
+    - # Brain-Computer Interface System Developer
+      company: Shenzhen University
+      company_url: 'http://www.zgzhang-lab.net/'
+      company_logo: mindlab
+      location: Shenzhen, China
+      date_start: '2019-09-01'
+      date_end: '2021-05-01'
+      description: 
+          * Developed a Python based real-time brain wave visualization tool for host computer
+          * Developed a multi-module C++ based real-time Neurofeedback system on OpenBCI
+          * Designed and conducted tests to quantify the intensity and depth of the system’s modulation of brain wave
 design:
-  columns: '2'
+    columns: '2'
 ---
