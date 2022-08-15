@@ -28,7 +28,7 @@ experience:
     company_logo: kordinglab
     location: United States
     date_start: '2021-11-01'
-    date_end: 
+    date_end: ''
     description: |2-
         Responsibilities include:
         
