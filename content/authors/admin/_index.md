@@ -14,7 +14,7 @@ organizations:
     url: https://be.seas.upenn.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include causal discovery, causal machine learning and machine learning application in biomedical informatics
+bio: My research interests include Causal Discovery, Causal Machine Learning and Machine Learning Application in Biomedical Informatics
 
 # Interests to show in About widget
 interests:
@@ -73,16 +73,16 @@ email: 'wsinyue@seas.upenn.edu'
 highlight_name: true
 ---
 
-Hi! I am a master student in the Department of Bioengineering at the University of Pennsylvania. 
+Hi! I am a master student in the Department of Bioengineering at [University of Pennsylvania](https://be.seas.upenn.edu/). 
 My research interests include Causal Discovery, Causal Machine Learning and Machine Learning 
 Application in Biomedical Informatics. 
 
 Currently, I am doing research about Meta-learning Causal Discovery in large complex system, advised by 
-Konrad Kording. Prior to UPenn, I earned a BEng degree in Biomedical 
-Engineering from Shenzhen University and conducted the Neural Feedback System 
-development in MINDLab. Meanwhile, I am a data science enthusiast, have 
+[Dr. Konrad Kording](http://koerding.com/). Prior to UPenn, I earned a BEng degree in Biomedical 
+Engineering from [Shenzhen University](https://bme.szu.edu.cn/#) and conducted the Neural Feedback System 
+development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast, have 
 won multiple medals on Kaggle. 
 
 [//]: # (Path: content/authors/admin/_index.md)
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "static/uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
