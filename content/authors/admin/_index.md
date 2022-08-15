@@ -67,7 +67,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'wsinyue@seas.upenn.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -77,6 +77,6 @@ Hi! I am a master student in the Department of Bioengineering at the University 
 meta-learning causal discovery in large complex system, advised by Konrad Kording. Prior to UPenn, I earned a BEng in Biomedical Engineering from Shenzhen University and conducted the neural feedback system construction in MINDLab. Meanwhile, I am a data science enthusiast, have multiple medals 
 on Kaggle.
 
-[//]: #	( Path: content/authors/admin/_index.md
+[//]: # ([//]: #	&#40; Path: content/authors/admin/_index.md)
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
