@@ -81,7 +81,7 @@ Currently, I am doing research about Meta-learning Causal Discovery in large com
 [Dr. Konrad Kording](http://koerding.com/). Prior to UPenn, I earned a BEng degree in Biomedical 
 Engineering from [Shenzhen University](https://bme.szu.edu.cn/#) and conducted the Neural Feedback System 
 development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast, have 
-won multiple medals on Kaggle. 
+won multiple medals on [Kaggle](https://www.kaggle.com/). 
 
 [//]: # (Path: content/authors/admin/_index.md)
 
