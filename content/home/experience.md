@@ -32,23 +32,23 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Conduct large complex system simulations and perturbations studies on NMOS6502 microprocessor.
+        * Design meta-learning algorithms to infer the causal relationships between system parameters.
+        * Collaborate with the lab to do research on Theoretical Deep Learning and Causal Inference.
 
   - title: Teaching Assistant
     company: Neuromatch Academy Deep Learning Program
     company_url: 'https://academy.neuromatch.io/'
     company_logo: nma
     location: California, United States
-    date_start: '2021-11-01'
-    date_end: ''
+    date_start: '2022-07-11'
+    date_end: '2022-07-29'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Led and mentored students in the three-week Deep Learning tutorials study.
+        * Helped students design and develop their Deep Learning projects based on Computer Vision.
+        * Managed and organized tutorials learning and communications with mentors and students.
 
   - title: Engineer Intern
     company: Kerry Rehab
@@ -60,9 +60,8 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Conduct data process pipeline development to analyze and model the EEG data.
+        * Assisted recruit subjects and collected EEG data for following neural feedback analysis.
 
   - title: Student Researcher
     company: Laboratory of Medical Informatics & Neural Dynamics
@@ -75,7 +74,7 @@ experience:
          Responsibilities include:
     
          * Developed a Python based real-time brain wave visualization tool for host computer
-         * Developed a multi-module C++ based real-time Neurofeedback system on OpenBCI
+         * Developed a multi-module C++ based real-time Neural Feedback System on OpenBCI
          * Designed and conducted tests to quantify the intensity and depth of the system’s modulation of brain wave
 design:
       columns: '2'
