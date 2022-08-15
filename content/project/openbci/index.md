@@ -11,7 +11,7 @@ date: '2016-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: General System Overview
+  caption: General system overview
   focal_point: Smart
 
 links:
@@ -45,11 +45,15 @@ accuracy for phase estimation in phase-locked feedback control.
 The results show the effective of the proposed system to alpha wave
 regulation, which has significant modulation advantages in amplitude 
 and frequency compared to Distributed BrainProduct Architectures.
-![avatar](content/project/openbci/effect_1.png)
-![avatar](content/project/openbci/effect_2.png)
+
+{{< figure src="projects/openbci/effect_1.png" caption="Modulation effect comparison on subject 1" theme="light" >}}
+{{< figure src="projects/openbci/effect_1.png" caption="Modulation effect comparison on subject 1" theme="dark" >}}
+{{< figure src="projects/openbci/effect_2.png" caption="Modulation effect comparison on subject 2" theme="light" >}}
+{{< figure src="projects/openbci/effect_2.png" caption="Modulation effect comparison on subject 2" theme="dark" >}}
 
 Besides, we develop a PyQtGraph-based visualization tool for real-time 
 monitoring on host computer, streaming data from OpenBCI board by Bluetooth 2.0
 protocols. 
-![avatar](content/project/openbci/visualization.png)
+{{< figure src="projects/openbci/visualization.png" caption="Visualization of visualization on the host computer" theme="light" >}}
+{{< figure src="projects/openbci/visualization.png" caption="Visualization of visualization on the host computer" theme="dark" >}}
 
