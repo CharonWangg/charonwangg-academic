@@ -35,7 +35,7 @@ item:
                  * 50th place VinBigData Chest X-ray Abnormalities Detection (Top 5%)
                  * 73rd place Tabular Playground Series - Nov 2021 (Top 5%)
 
-    organization: Kaggle
+    organization: edX
     organization_url: https://www.kaggle.com
     title: 'Kaggle Expert'
     url: 'https://www.kaggle.com/charonwangg'
