@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - date_end: 
+  - date_end: Present
     date_start: '2021-03-01'
     description: |2-
         Participated and won more than two silver medals in the Kaggle Competitions:
@@ -36,7 +36,7 @@ item:
     organization: Kaggle
     organization_url: https://www.kaggle.com
     title: 'Kaggle Expert'
-    url: ''
+    url: 'https://www.kaggle.com/charonwangg'
   - date_end: '2021-06-01'
     date_start: '2017-09-01'
     description: |2-
