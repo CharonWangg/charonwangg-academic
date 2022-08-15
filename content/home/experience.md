@@ -22,11 +22,11 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Student Researcher in Kording Lab
-    company: University of Pennsylvania
+  - title: Student Researcher
+    company: Kording Lab, University of Pennsylvania
     company_url: 'http://kordinglab.com/'
     company_logo: org-x
-    location: United States
+    location: Pennsylvania, United States
     date_start: '2021-11-01'
     date_end: ''
     description: |2-
@@ -40,7 +40,7 @@ experience:
     company: Neuromatch Academy
     company_url: 'https://academy.neuromatch.io/'
     company_logo: org-x
-    location: University of Pennsylvania, United States
+    location: California, United States
     date_start: '2021-11-01'
     date_end: ''
     description: |2-
@@ -54,7 +54,7 @@ experience:
     company: Kerry Rehab
     company_url: 'https://academy.neuromatch.io/'
     company_logo: org-x
-    location: Shenzhen, China
+    location: Guangdong, China
     date_start: '2020-11-01'
     date_end: '2020-12-31'
     description: |2-
@@ -64,11 +64,11 @@ experience:
         * Modelling
         * Deploying
 
-  - title: Student Researcher in Laboratory of Medical Informatics & Neural Dynamics
-    company: Shenzhen University
+  - title: Student Researcher
+    company: Laboratory of Medical Informatics & Neural Dynamics, Shenzhen University
     company_url: 'http://www.zgzhang-lab.net/'
     company_logo: org-x
-    location: Shenzhen, China
+    location: Guangdong, China
     date_start: '2019-09-01'
     date_end: '2021-05-01'
     description: |2-
