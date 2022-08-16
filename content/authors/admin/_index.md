@@ -83,6 +83,8 @@ Engineering from [Shenzhen University](https://bme.szu.edu.cn/#) and conducted t
 development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast, have 
 won multiple medals on [Kaggle](https://www.kaggle.com/). 
 
+Looking for a 2023 fall PhD position, contact me if you are interested in my background and experience!
+
 [//]: # (Path: content/authors/admin/_index.md)
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
