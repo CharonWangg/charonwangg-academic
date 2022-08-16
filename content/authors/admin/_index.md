@@ -77,7 +77,7 @@ Hi! I am a master student in the Department of Bioengineering at [University of 
 My research interests include Causal Discovery, Causal Machine Learning and Machine Learning 
 Application in Biomedical Informatics. 
 
-Currently, I am doing research about Meta-learning Causal Discovery in large complex system, advised by 
+Currently, I am doing research about Meta-learning Causal Discovery in large complex system in [KordingLab](http://kordinglab.com/), advised by 
 [Dr. Konrad Kording](http://koerding.com/). Prior to UPenn, I earned a BEng degree in Biomedical 
 Engineering from [Shenzhen University](https://bme.szu.edu.cn/#) and conducted the Neural Feedback System 
 development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast, have 
