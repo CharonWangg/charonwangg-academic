@@ -53,4 +53,4 @@ teract with player(s). With minimum human intervention,
 TurtleSoup is capable of providing comprehensive interac-
 tive experience that can be entertaining.
 
-{{< figure src="projects/turtle_soup/generation.png" caption="Generation and Question Answering demo" theme="dark" >}}
+{{< figure src="projects/turtle_soup/generation.png" caption="Generation and Question Answering demo" >}}

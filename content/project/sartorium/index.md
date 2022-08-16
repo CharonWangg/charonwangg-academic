@@ -41,7 +41,7 @@ we developed a neuronal cells instance segmentation system, including an instanc
 segmentation model based on Cascade Mask R-CNN X152 and a customized post-
 processing pipeline. 
 
-{{< figure src="projects/sartorium/workflow.png" caption="Pipeline workflow" theme="dark" >}}
+{{< figure src="projects/sartorium/workflow.png" caption="Pipeline workflow" >}}
 
 In this project, we first adopted various training skills like large-scale training, 
 multi-scale jittering, copy-paste augmentation and etc to train a robust baseline based on

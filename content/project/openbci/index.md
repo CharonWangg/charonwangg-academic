@@ -36,7 +36,7 @@ highly related to people’s psychological cognitive ability. In this
 work, to achieve optimal real-time modulation effect of alpha wave, 
 we first conduct comprehensive delay analysis and technology selection to propose
 the ideal architecture of neural feedback system.
-{{< figure src="projects/openbci/arch_selection.png" caption="Architecture comparison between distributed and integrated based" theme="dark" >}}
+{{< figure src="projects/openbci/arch_selection.png" caption="Architecture comparison between distributed and integrated based" >}}
 
 After measurement and analysis of hardware delay, software delay, we propose 
 an OpenBCI version of phase-locked feedback control system
@@ -51,11 +51,11 @@ The results show the effective of the proposed system to alpha wave
 regulation, which has significant modulation advantages in amplitude 
 and frequency compared to Distributed BrainProduct Architectures.
 
-{{< figure src="projects/openbci/effect_1.png" caption="Modulation effect comparison on subject 1" theme="dark" >}}
-{{< figure src="projects/openbci/effect_2.png" caption="Modulation effect comparison on subject 2" theme="dark" >}}
+{{< figure src="projects/openbci/effect_1.png" caption="Modulation effect comparison on subject 1" >}}
+{{< figure src="projects/openbci/effect_2.png" caption="Modulation effect comparison on subject 2" >}}
 
 Besides, we developed a PyQtGraph-based visualization tool for real-time 
 monitoring on host computer, streaming data from OpenBCI board by Bluetooth 2.0
 protocols. 
-{{< figure src="projects/openbci/visualization.png" caption="Visualization of visualization on the host computer" theme="dark" >}}
+{{< figure src="projects/openbci/visualization.png" caption="Visualization of visualization on the host computer" >}}
 
