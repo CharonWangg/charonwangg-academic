@@ -31,10 +31,15 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
 The neural oscillation in electroencephalogram (EEG) signals is
 highly related to people’s psychological cognitive ability. In this
-work, an OpenBCI version of phase-locked feedback control system
+work, to achieve optimal real-time modulation effect of alpha wave, 
+we first conduct comprehensive delay analysis and technology selection to propose
+the ideal architecture of neural feedback system.
+{{< figure src="projects/openbci/arch_selection.png" caption="Architecture comparison between distributed and integrated based" theme="dark" >}}
+
+After measurement and analysis of hardware delay, software delay, we propose 
+an OpenBCI version of phase-locked feedback control system
 has been implemented for real time alpha wave regulation. As
 compared with the distributed system architecture on Brainamp,
 PC and Arduino in the previous work, the new proposed system has
