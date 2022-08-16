@@ -46,14 +46,11 @@ The results show the effective of the proposed system to alpha wave
 regulation, which has significant modulation advantages in amplitude 
 and frequency compared to Distributed BrainProduct Architectures.
 
-{{< figure src="projects/openbci/effect_1.png" caption="Modulation effect comparison on subject 1" theme="light" >}}
 {{< figure src="projects/openbci/effect_1.png" caption="Modulation effect comparison on subject 1" theme="dark" >}}
-{{< figure src="projects/openbci/effect_2.png" caption="Modulation effect comparison on subject 2" theme="light" >}}
 {{< figure src="projects/openbci/effect_2.png" caption="Modulation effect comparison on subject 2" theme="dark" >}}
 
-Besides, we develop a PyQtGraph-based visualization tool for real-time 
+Besides, we developed a PyQtGraph-based visualization tool for real-time 
 monitoring on host computer, streaming data from OpenBCI board by Bluetooth 2.0
 protocols. 
-{{< figure src="projects/openbci/visualization.png" caption="Visualization of visualization on the host computer" theme="light" >}}
 {{< figure src="projects/openbci/visualization.png" caption="Visualization of visualization on the host computer" theme="dark" >}}
 
