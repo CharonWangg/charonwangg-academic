@@ -43,3 +43,5 @@ includes data pre-processing, feature extraction, feature processing, model
 training, prediction, cross-validation, and post-processing. This pipeline 
 achieved 52.8% and 46.7% correlation on the public leaderboard and private leaderboard, 
 listed as Top 5 solution in the 2020 BE521 Brain-Computer Interface Final Competition.
+
+{{< figure src="projects/goldfinger/effect.png" caption="Algorithm prediction visualization" theme="dark" >}}
