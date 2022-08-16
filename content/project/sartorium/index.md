@@ -1,7 +1,9 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Sartorius Neuronal Cells Segmentation
+summary: A robust deep learning pipeline for segmenting neuronal cells in microscopy images.
 tags:
+  - Biomedical Informatics
+  - Instance Segmentation
   - Deep Learning
 date: '2016-04-27T00:00:00Z'
 
@@ -9,14 +11,14 @@ date: '2016-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Inference result showcase
   focal_point: Smart
 
 links:
-  - icon: twitter
+  - icon: github
     icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+    name: Code
+    url: https://github.com/CharonWangg/Kaggle_Sartorius_Neurons_Segmentation
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -29,13 +31,33 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+Neurological disorders have caused increasing death and disability across the globe,
+which increases the demand for corresponding treatment and rehabilitation. As a
+key step in neurological disorders drug development, neuronal cells segmentation in
+light microscopy is vital to obtain deadly disorders’ response to treatment. However,
+common manual neuronal cells instance segmentation is inefficient, time-intensive, and
+labor-costing. To automatically and accurately segment neuronal cells from images,
+we developed a neuronal cells instance segmentation system, including an instance
+segmentation model based on Cascade Mask R-CNN X152 and a customized post-
+processing pipeline. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+{{< figure src="projects/sartorium/workflow.png" caption="Pipeline workflow" theme="dark" >}}
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+In this project, we first adopted various training skills like large-scale training, 
+multi-scale jittering, copy-paste augmentation and etc to train a robust baseline based on
+Cascade Mask R-CNN X152. According to the characteristics of the dataset, we implemented several
+effective post process methods such as mask screening, overlapping removal, small instance removal 
+and etc to reduce false positives. We conducted model inference on the unlabeled data set, LiveCell, 
+to get the peseudo-label in a semi-supervised way. After screening semi-supervised data by prediction 
+confidence, we combine them into a bigger training set and conduct multiple rounds fine-tuning by repeating 
+the previous steps. Finally, to avoid the negative effect of naively fuse instance segmentation models, 
+we invented a cascade IoU screening method to fuse the prediction results
+from six models of different folds and seeds to get the final result. Test time augmentation included flipping 
+and resize are used in the all inference process. 
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+The resulting robust segmentation system leverages several techniques to achieve 33.5% mAP and 34.5% mAP 
+on the public and private leaderboard, leading to the top 1% place on Kaggle Sartorius Cell Instance Segmentation Competition. 
+This work potentially provides an efficient and effective alternative for manually 
+segmenting neuronal cells, which saves labor costs and further facilitates 
+drug development in curing neurological disorders. 
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
