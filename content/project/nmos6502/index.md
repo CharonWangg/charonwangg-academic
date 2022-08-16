@@ -45,6 +45,6 @@ should consider, where possible, a supervised approach, where CI procedures are 
 temporal datasets with known causal relations. This promises a new approach towards CI in neural
 and medical data and for the broader machine learning community.
 
-[//]: # ({{< figure src="projects/nmos6502/causal_effect.png" caption="Causal effect of lesions inside NMOS6502 when executing different games" theme="dark" >}})
+{{< figure src="projects/nmos6502/regular_methods.png" caption="ausal inference method comparison in the pairwise transistor relationship classification" >}}
 
 
