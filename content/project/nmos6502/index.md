@@ -19,6 +19,10 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/CharonWangg/NMOS6502-Causality
+  - icon: graduation-cap
+    icon_pack: fas
+    name: Publications
+    url: https://arxiv.org/abs/2209.05598
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -45,6 +49,6 @@ should consider, where possible, a supervised approach, where CI procedures are 
 temporal datasets with known causal relations. This promises a new approach towards CI in neural
 and medical data and for the broader machine learning community.
 
-{{< figure src="projects/nmos6502/regular_methods.png" caption="ausal inference method comparison in the pairwise transistor relationship classification" >}}
+{{< figure src="projects/nmos6502/noise.png" caption="ausal inference method comparison in the pairwise transistor relationship classification" >}}
 
 
