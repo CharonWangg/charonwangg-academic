@@ -80,8 +80,8 @@ Application in Biomedical Informatics.
 Currently, I am doing research about Meta-learning Causal Discovery in large complex system in [KordingLab](http://kordinglab.com/), advised by 
 [Dr. Konrad Kording](http://koerding.com/). Prior to UPenn, I earned a BEng degree in Biomedical 
 Engineering from [Shenzhen University](https://bme.szu.edu.cn/#) and conducted the Neural Feedback System 
-development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast, have 
-won multiple medals on [Kaggle](https://www.kaggle.com/). 
+development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast and excited about
+applying machine learning to solve real-world problems, have won multiple medals on [Kaggle](https://www.kaggle.com/). 
 
 I am now looking for a 2023 fall PhD position, contact me if you are interested in my background and experience!
 

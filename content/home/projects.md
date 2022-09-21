@@ -27,6 +27,8 @@ content:
   filter_button:
     - name: All
       tag: '*'
+    - name: Causality
+      tag: Causality
     - name: Brain-Computer Interface
       tag: Brain-Computer Interface
     - name: Deep Learning

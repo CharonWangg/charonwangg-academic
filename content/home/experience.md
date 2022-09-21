@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Student Researcher
-    company: Kording Lab,
+    company: Kording Lab
     company_url: 'http://kordinglab.com/'
     company_logo: kordinglab
     location: University of Pennsylvania, Pennsylvania, United States
