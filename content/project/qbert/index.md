@@ -66,7 +66,7 @@ guage processing task is feasible and successful. Without negative samples par-
 ticipated, our query encoder did not collapse and exhibited high quality query
 representation.
 
-{{< figure src="projects/qbert/framework comparison.png" caption="Framework comparison on Quora question duplicated pairs" >}}
+{{< figure src="projects/qbert/Framework comparison.png" caption="Framework comparison on Quora question duplicated pairs" >}}
 
 In the second part, we trained query encoders on the augmentation data
 of MS MARCO Passage Ranking data set to fully unleash the potential of
