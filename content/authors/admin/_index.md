@@ -73,9 +73,9 @@ email: 'wsinyue@seas.upenn.edu'
 highlight_name: true
 ---
 
-Hi! I am a master student in the Department of Bioengineering at [University of Pennsylvania](https://be.seas.upenn.edu/). 
-My research interests include Causal Discovery, Causal Machine Learning and Machine Learning 
-Application in Biomedical Informatics. 
+Hi! I am a master student in the Department of Bioengineering at [University of Pennsylvania](https://be.seas.upenn.edu/), 
+My research interests include Causal Discovery, Causal Machine Learning and Machine Learning Applications in all kinds of 
+real-world problem, mainly in Biomedical Informatics. My ultimate question thinking now is, can we develop a world model based on causality?
 
 Currently, I am doing research about Meta-learning Causal Discovery in large complex system in [KordingLab](http://kordinglab.com/), advised by 
 [Dr. Konrad Kording](http://koerding.com/). Prior to UPenn, I earned a BEng degree in Biomedical 
