@@ -18,7 +18,7 @@ image:
 links:
   - icon: github
     icon_pack: fab
-    name: Code
+    name: Codew
     url: https://github.com/Vopaaz/QBert
 url_code: ''
 url_pdf: ''
