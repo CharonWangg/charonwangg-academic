@@ -9,7 +9,7 @@ date: '2016-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Algorithm flow chart
+  caption: Shallow Mind
   focal_point: Smart
 
 links:
@@ -32,15 +32,15 @@ slides: ""
 Inspired by MMSegmentation, I want all of my Deep Learning projects to be
 simplified to a single 'config.py', and do not need to worried about training 
 except for specific model/dataset. So I decide to make a highly disentangled 
-one based on Pytorch-lightning.
+training framework based on Pytorch-lightning.
 
 Now support:
   * Custom Model Class
-    * Architecture, 
+    * Architecture like BaseEncoderDecoder, NeuralEncoders, 
     * Backbone, 
       * Embedding layers like Base/Linear/Convolutional
       * LSTM/Transformer/TCN/Timm_models/NeuralPredictors
-    * Head like MLP, Poolers,
+    * Head like MLP, Poolers
   * Custom Dataset Class
     * Single dataset and Multiple datasets concatenation
     * Pipeline for augmentations from Albumentations, Tsaug, etc
@@ -54,4 +54,13 @@ Now support:
   * Distributed Training
   * Simple api train/infer for use
 
+Feel free to combine the existed components to build your own model, or write
+your special one.  
+(E.x. BaseEncoderDecoder(Embedding(Conv)+Transformer+BaseHead) == ViT; 
+      BaseEncoderDecoder(Timm_models+BaseHead) == Classic Image Classification Model;
+      BaseEncoderDecoder(LSTM/Transformer/TCN+BaseHead)  == Sequence Prediction Model)
+      ...
+)
+
+Will expand it with my own projects(Probably Huggingface series?), and welcome to contribute your model/dataset!
 All you need is to write a config.py/model class/dataset class and run it :)
