@@ -28,10 +28,10 @@ item:
     description: |2-
         Participated and won more than two silver medals in the Kaggle Competitions:
 
-        * 17th place [Sartorius - Cell Instance Segmentation (Top 2%)](https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation)
-        * 32nd place [UW-Madison GI Tract Image Segmentation (Top 3%)](https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation)
-        * 38th place [chaii - Hindi and Tamil Question Answering (Top 5%)](https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering)
-        * 50th place [VinBigData Chest X-ray Abnormalities Detection (Top 5%)](https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection)
+        * 17th place [Sartorius - Cell Instance Segmentation (Top 1%)](https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation)
+        * 32nd place [UW-Madison GI Tract Image Segmentation (Top 2%)](https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation)
+        * 38th place [chaii - Hindi and Tamil Question Answering (Top 4%)](https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering)
+        * 50th place [VinBigData Chest X-ray Abnormalities Detection (Top 4%)](https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection)
         * 73rd place [Tabular Playground Series - Nov 2021 (Top 5%)](https://www.kaggle.com/competitions/tabular-playground-series-nov-2021)
     organization: Kaggle
     organization_url: https://www.kaggle.com
