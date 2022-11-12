@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Meta-learning Causal Discovery
+title: Learning Causal Discovery
 subtitle: ''
 summary: ''
 authors:

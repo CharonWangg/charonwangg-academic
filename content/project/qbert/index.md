@@ -23,7 +23,7 @@ links:
   - icon: graduation-cap
     icon_pack: fas
     name: Report
-    link: static/uploads/QBert_Report.pdf
+    url: https://drive.google.com/file/d/1_-skbKjRM57S6QSk4kMzhOnZT3HgY0ij/view?usp=sharing
 url_code: ''
 url_pdf: ''
 url_slides: ''

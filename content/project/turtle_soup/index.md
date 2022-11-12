@@ -19,6 +19,10 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/CharonWangg/Turtle_Soup_Generator
+  - icon: graduation-cap
+    icon_pack: fas
+    name: Report
+    url: https://drive.google.com/file/d/19T_KACaioy4uNIs9o2PG14J1_zq_J5W8/view?usp=sharing
 url_code: ''
 url_pdf: ''
 url_slides: ''
