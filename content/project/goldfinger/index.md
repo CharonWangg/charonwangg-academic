@@ -22,7 +22,7 @@ links:
   - icon: graduation-cap
     icon_pack: fas
     name: Report
-    url: static/uploads/BE521_Report.pdf
+    link: static/uploads/BE521_Report.pdf
 url_code: ''
 url_pdf: ''
 url_slides: ''
