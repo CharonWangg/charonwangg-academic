@@ -19,6 +19,10 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/CharonWangg/521-Goldfinger
+  - icon: graduation-cap
+    icon_pack: fas
+    name: Report
+    url: static/uploads/BE521_Report.pdf
 url_code: ''
 url_pdf: ''
 url_slides: ''

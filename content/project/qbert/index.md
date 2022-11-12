@@ -18,8 +18,12 @@ image:
 links:
   - icon: github
     icon_pack: fab
-    name: Codew
+    name: Code
     url: https://github.com/Vopaaz/QBert
+  - icon: graduation-cap
+    icon_pack: fas
+    name: Report
+    url: static/uploads/QBert_Report.pdf
 url_code: ''
 url_pdf: ''
 url_slides: ''
