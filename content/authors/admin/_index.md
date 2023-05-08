@@ -84,6 +84,7 @@ development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang
 applying machine learning to solve real-world problems, have won multiple medals on [Kaggle](https://www.kaggle.com/). 
 
 I will join [Dr. Biwei Huang](https://biweihuang.com/)'s lab at [University of California, San Diego](https://www.ucsd.edu/) as a HDSI PhD student in 2023 Fall.
+
 [//]: # (Path: content/authors/admin/_index.md)
 
 [//]: # ({{< icon name="download" pack="fas" >}} Download my {{< staticref "static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.)
