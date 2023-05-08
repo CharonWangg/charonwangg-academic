@@ -36,6 +36,21 @@ experience:
         * Design meta-learning algorithms to infer the causal relationships between system parameters.
         * Collaborate with the lab to do research on Theoretical Deep Learning and Causal Inference.
 
+ - title: Teaching Assistant
+    company: UPenn CIS 522 Deep Learning
+    company_url: 'https://academy.neuromatch.io/'
+    company_logo: cis522
+    location: University of Pennsylvania, Pennsylvania, United States
+    date_start: '2023-01-15'
+    date_end: '2023-05-15'
+    description: |2-
+        Responsibilities include:
+        
+        * Led and mentored a pod of 15 students in the twelve-week Deep Learning study.
+        * Helped three groups of students design and develop their Deep Learning projects.
+        * Designed and organized homework and tutorials.
+
+
   - title: Teaching Assistant
     company: Neuromatch Academy Deep Learning Program
     company_url: 'https://academy.neuromatch.io/'

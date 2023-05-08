@@ -14,13 +14,13 @@ organizations:
     url: https://be.seas.upenn.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Causal Discovery, Causal Machine Learning and Machine Learning Application in Biomedical Informatics
+bio: My research interests include Causal Discovery, Causal Representation Learning and Machine Learning Application
 
 # Interests to show in About widget
 interests:
   - Causal Discovery
-  - Causal Machine Learning
-  - Machine Learning Applications in Biomedical Informatics
+  - Causal Representation Learning
+  - Machine Learning Applications
 
 # Education to show in About widget
 education:
@@ -74,17 +74,16 @@ highlight_name: true
 ---
 
 Hi! I am a master student in the Department of Bioengineering at [University of Pennsylvania](https://be.seas.upenn.edu/), 
-My research interests include Causal Discovery, Causal Machine Learning and Machine Learning Applications in all kinds of 
-real-world problem, mainly in Biomedical Informatics. My ultimate question thinking now is, can we develop a world model based on causality?
+My research interests include Causal Discovery, Causal Representation Learning and Machine Learning Applications in all kinds of 
+real-world problem. My ultimate question thinking now is, can we develop a world model based on causality?
 
-Currently, I am doing research about Meta-learning Causal Discovery in large complex system in [KordingLab](http://kordinglab.com/), advised by 
+Currently, I am doing research about Learning Causal Discovery in large complex system in [KordingLab](http://kordinglab.com/), advised by 
 [Dr. Konrad Kording](http://koerding.com/). Prior to UPenn, I earned a BEng degree in Biomedical 
 Engineering from [Shenzhen University](https://bme.szu.edu.cn/#) and conducted the Neural Feedback System 
 development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast and excited about
 applying machine learning to solve real-world problems, have won multiple medals on [Kaggle](https://www.kaggle.com/). 
 
-I am now looking for a 2023 fall PhD position, contact me if you are interested in my background and experience!
-
+I will join [Dr. Biwei Huang](https://biweihuang.com/)'s lab at [University of California, San Diego](https://www.ucsd.edu/) as a HDSI PhD student in 2023 Fall.
 [//]: # (Path: content/authors/admin/_index.md)
 
 [//]: # ({{< icon name="download" pack="fas" >}} Download my {{< staticref "static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.)
