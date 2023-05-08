@@ -36,7 +36,7 @@ experience:
         * Design meta-learning algorithms to infer the causal relationships between system parameters.
         * Collaborate with the lab to do research on Theoretical Deep Learning and Causal Inference.
 
- - title: Teaching Assistant
+  - title: Teaching Assistant
     company: UPenn CIS 522 Deep Learning
     company_url: 'https://academy.neuromatch.io/'
     company_logo: cis522
