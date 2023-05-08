@@ -50,7 +50,6 @@ experience:
         * Helped three groups of students design and develop their Deep Learning projects.
         * Designed and organized homework and tutorials.
 
-
   - title: Teaching Assistant
     company: Neuromatch Academy Deep Learning Program
     company_url: 'https://academy.neuromatch.io/'
