@@ -1,20 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Neural Networks as Paths through the Space of Representations
+title: Learning domain-specific causal discovery from time series
 subtitle: ''
 summary: ''
 authors:
-- Richard D Lange
-- Jordan Matelsky
 - Xinyue Wang
-- Devin Kwok
-- David S Rolnick
-- Konrad P Kording
+- Konrad Kording
 tags: []
 categories: []
-date: '2022-01-01'
-lastmod: 2022-09-22T04:24:25-04:00
+date: '2023-01-01'
+lastmod: 2023-10-02T16:28:36-07:00
 featured: false
 draft: false
 
@@ -32,9 +28,12 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-09-22T08:24:25.644328Z'
+publishDate: '2023-10-02T23:28:30.106834Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*arXiv preprint arXiv:2206.10999*'
+publication: '*Transactions on Machine Learning Research*'
+links:
+- name: URL
+  url: https://openreview.net/forum?id=JFaZ94tT8M
 ---

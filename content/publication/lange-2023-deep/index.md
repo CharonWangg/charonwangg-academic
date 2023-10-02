@@ -1,16 +1,20 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Learning Causal Discovery
+title: Deep Networks as Paths on the Manifold of Neural Representations
 subtitle: ''
 summary: ''
 authors:
+- Richard D Lange
+- Devin Kwok
+- Jordan Kyle Matelsky
 - Xinyue Wang
+- David Rolnick
 - Konrad Kording
 tags: []
 categories: []
-date: '2022-01-01'
-lastmod: 2022-09-22T04:24:25-04:00
+date: '2023-01-01'
+lastmod: 2023-10-02T16:28:37-07:00
 featured: false
 draft: false
 
@@ -28,9 +32,12 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-09-22T08:24:25.360193Z'
+publishDate: '2023-10-02T23:28:36.934008Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*arXiv preprint arXiv:2209.05598*'
+publication: '*ICML-TAGML Workshop*'
+links:
+- name: URL
+  url: https://openreview.net/forum?id=PhpCHXUx9D
 ---

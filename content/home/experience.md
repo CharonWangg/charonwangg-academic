@@ -28,7 +28,7 @@ experience:
     company_logo: kordinglab
     location: University of Pennsylvania, Pennsylvania, United States
     date_start: '2021-11-01'
-    date_end: ''
+    date_end: '2023-05-29'
     description: |2-
         Responsibilities include:
         
