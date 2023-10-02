@@ -6,7 +6,7 @@ title: Xinyue Wang
 superuser: true
 
 # Role/position/tagline
-role: PhD Student of Bioengineering
+role: PhD Student of Data Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -77,9 +77,9 @@ highlight_name: true
 ---
 
 Hi! I am a PhD student in the Halıcıoğlu Data Science Institute (HDSI) at [University of California San Diego](https://datascience.ucsd.edu/).
-My research interest lays in the intersection of causality and machine learning, include Causal Discovery, Causal Representation Learning 
-and Causal Machine Learning. My ultimate question thinking now is, can we develop a world model based on causality and maximize the ability of 
-AI to autonomously learn and reason about the world, including causal discovery, causal inference.
+My research interest lays in the intersection of Causality and Machine Learning, include Causal Discovery, Causal Representation Learning 
+and Causal Machine Learning. My ultimate question thinking now is, can we develop a world model based on causality with the self-consistent loop of
+autonomously Causal Discovery and Causal Inference.
 
 Currently, I am doing causality-related research in HDSI, supervised by [Dr. Biwei Huang](https://biweihuang.com/). Before joining in UCSD,
 I was a MSE student in [University of Pennsylvania](https://www.upenn.edu/), majored in Bioengineering. My master thesis 
