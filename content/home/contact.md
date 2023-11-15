@@ -25,13 +25,13 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: wsinyue@seas.upenn.edu
-  phone: 669 649 04 24
+  email: xiw159@ucsd.edu
+  phone: 215 921 1077
   address:
-    street: 3700 Hamilton Walk
-    city: Philadelphia
-    region: PA
-    postcode: '19104'
+    street: 3234 Matthews Ln
+    city: La Jolla
+    region: CA
+    postcode: '92093'
     country: United States
     country_code: US
   appointment_url: 'https://calendly.com'
