@@ -1,16 +1,16 @@
 ---
-title: Could a Neural Network Understand Microprocessor
-summary: Exploring causal relationships inside a large complex system with deep learning
+title: Learning Causal Discovery
+summary: Learn to discover causality inside a large complex system without human prior
 tags:
-  - Causality
-  - Microcontroller
-  - Deep Learning
+  - Causal Discovery
+  - Machine Learning
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
+  size: actual
   caption: Learning  causal discovery in a data-driven way
   focal_point: Smart
 
@@ -18,7 +18,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Code
-    url: https://github.com/CharonWangg/NMOS6502-Causality
+    url: https://github.com/KordingLab/LearningCausalDiscovery
   - icon: graduation-cap
     icon_pack: fas
     name: Publications
@@ -36,23 +36,20 @@ url_video: ''
 slides: ""
 ---
 
-Causal discovery (CD) from time-varying data is important in neuroscience, medicine, 
-and machine learning. Techniques for CD include randomized experiments which are 
-generally unbiased but expensive. It also includes algorithms like regression, 
-matching, and Granger causality, which are only correct under strong assumptions 
-made by human designers. However, as we found in other areas of machine learning, 
-humans are usually not quite right and are usually outperformed by data-driven 
-approaches. Here we test if we can improve causal discovery in a data-driven way. 
-We take a system with a large number of causal components (transistors), the MOS 
-6502 processor, and meta-learn the causal discovery procedure represented as a 
-neural network. We find that this procedure far outperforms human-designed causal 
-discovery procedures, such as Mutual Information and Granger Causality. We argue 
-that the causality field should consider, where possible, a supervised approach, 
-where CD procedures are learned from large datasets with known causal relations 
-instead of being designed by a human specialist. Our findings promise a new approach 
-toward CD in neural and medical data and for the broader machine learning community.
+Causal discovery (CD) from time-varying data is important in neuroscience, medicine, and machine learning. 
+Techniques for CD encompass randomized experiments, which are generally unbiased but expensive, and algorithms 
+such as Granger causality, conditional- independence-based, structural-equation-based, and score-based methods 
+that are only accurate under strong assumptions made by human designers. However, as demonstrated in other areas 
+of machine learning, human expertise is often not entirely accurate and tends to be outperformed in domains with 
+abundant data. In this study, we examine whether we can enhance domain-specific causal discovery for time series 
+using a data-driven ap- proach. Our findings indicate that this procedure significantly outperforms human-designed, 
+domain-agnostic causal discovery methods, such as Mutual Information, VAR-LiNGAM, and Granger Causality on the 
+MOS 6502 microprocessor, the NetSim fMRI dataset, and the Dream3 gene dataset. We argue that, when feasible, 
+the causality field should consider a supervised approach in which domain-specific CD procedures are learned from 
+extensive datasets with known causal relationships, rather than being designed by human specialists. Our findings 
+promise a new approach toward improving CD in neural and medical data and for the broader machine learning community.
 
 
-{{< figure src="projects/nmos6502/noise.png" caption="Methods comparison under different scales of noise" >}}
+{{< figure src="projects/nmos6502/table.png" caption="Methods comparison across different games and durations" >}}
 
 

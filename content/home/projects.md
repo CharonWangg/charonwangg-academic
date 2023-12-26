@@ -24,19 +24,15 @@ content:
   # To show all items, set `tag` to "*".
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
-  filter_button:
-    - name: All
-      tag: '*'
-    - name: Causality
-      tag: Causality
-    - name: Brain-Computer Interface
-      tag: Brain-Computer Interface
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Microcontroller
-      tag: Microcontroller
-    - name: Other
-      tag: Demo
+  # filter_button:
+  #  - name: All
+  #    tag: '*'
+  #  - name: Causal Discovery
+  #    tag: Causality
+  #  - name: Brain-Computer Interface
+  #    tag: Brain-Computer Interface
+  #  - name: Machine Learning
+  #    tag: Machine Learning
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -47,7 +43,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: masonry
+  view: Showcase
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false

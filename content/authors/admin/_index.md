@@ -78,16 +78,27 @@ highlight_name: true
 
 Hi! I am a PhD student in the Halıcıoğlu Data Science Institute (HDSI) at [University of California San Diego](https://datascience.ucsd.edu/).
 My research interest lays in the intersection of Causality and Machine Learning, include Causal Discovery, Causal Representation Learning 
-and Causal Machine Learning. My ultimate question thinking now is, can we develop a world model based on causality with the self-consistent loop of
+and Causal Machine Learning. My ultimate question is, can we discover world model with the self-consistent loop of
 autonomously Causal Discovery and Causal Inference.
 
-Currently, I am doing causality-related research in HDSI, supervised by [Dr. Biwei Huang](https://biweihuang.com/). Before joining in UCSD,
-I was a MSE student in [University of Pennsylvania](https://www.upenn.edu/), majored in Bioengineering. My master thesis 
-is about Learning Domain-specific Causal Discovery in large complex system, conducted in [KordingLab](http://kordinglab.com/), advised by 
-[Dr. Konrad Kording](http://koerding.com/). Prior to UPenn, I earned a BEng degree in Biomedical 
-Engineering from [Shenzhen University](https://bme.szu.edu.cn/#) and conducted the Neural Feedback System 
-development in [MINDLab](http://www.zgzhang-lab.net/), Advised by [Dr. Gan Huang](https://huanggan.site/). 
-Meanwhile, I am a data science enthusiast and excited about applying machine learning to solve real-world problems, have won multiple medals on [Kaggle](https://www.kaggle.com/). 
+[//]: # ( Currently, I am doing causality-related research in HDSI, supervised by [Dr. Biwei Huang]&#40;https://biweihuang.com/&#41;. Before joining in UCSD,)
+
+[//]: # ( I was a MSE student in [University of Pennsylvania]&#40;https://www.upenn.edu/&#41;, majored in Bioengineering. My master thesis )
+
+[//]: # ( is about Learning Domain-specific Causal Discovery in large complex system, conducted in [KordingLab]&#40;http://kordinglab.com/&#41;, advised by )
+
+[//]: # ( [Dr. Konrad Kording]&#40;http://koerding.com/&#41;. Prior to UPenn, I earned a BEng degree in Biomedical )
+
+[//]: # ( Engineering from [Shenzhen University]&#40;https://bme.szu.edu.cn/#&#41; and conducted the Neural Feedback System )
+
+[//]: # ( development in [MINDLab]&#40;http://www.zgzhang-lab.net/&#41;, Advised by [Dr. Gan Huang]&#40;https://huanggan.site/&#41;. )
+
+[//]: # ( Meanwhile, I am a data science enthusiast and excited about applying machine learning to solve real-world problems, have won multiple medals on [Kaggle]&#40;https://www.kaggle.com/&#41;.)
+
+Currently, I conduct causality-related research in HDSI, advised by [Dr. Biwei Huang](https://biweihuang.com/). Before joining in UCSD,
+I mainly focused on developing automated causal discovery algorithm for large complex system, advised by 
+[Dr. Konrad Kording](http://koerding.com/). I am also interested in Brain-Computer Interface and Computational Neuroscience, 
+and conducted research related to Neurofeedback system advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast, have won multiple medals on Kaggle.
 
 [//]: # (Path: content/authors/admin/_index.md)
 

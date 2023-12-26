@@ -2,9 +2,7 @@
 title: Sartorius Neuronal Cells Segmentation
 summary: A robust deep learning pipeline for segmenting neuronal cells in microscopy images.
 tags:
-  - Biomedical Informatics
-  - Instance Segmentation
-  - Deep Learning
+  - Machine Learning
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

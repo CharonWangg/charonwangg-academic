@@ -4,7 +4,6 @@ summary: A millisecond-level phase locked neural feedback system based on OpenBC
 tags:
   - Brain Computer Interface
   - Neural Feedback Control
-  - Microcontroller
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
