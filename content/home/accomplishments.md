@@ -28,6 +28,7 @@ item:
     description: |2-
         Served as a peer reviewer for prestigious conferences and journals including UAI (2024), RLC (2024), and TMLR.
     organization: Academic Activities
+    title: 'Peer Reviewer'
   - date_end: ''
     date_start: '2021-03-01'
     description: |2-
