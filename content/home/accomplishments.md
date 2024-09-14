@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
+title: 'Activity&Accomplish&shy;ments'
 subtitle:
 
 # Date format
@@ -23,6 +23,11 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+  - date_end: ''
+    date_start: '2024-01-01'
+    description: |2-
+        Served as a peer reviewer for prestigious conferences and journals including UAI (2024), RLC (2024), and TMLR.
+    organization: Academic Activities
   - date_end: ''
     date_start: '2021-03-01'
     description: |2-
