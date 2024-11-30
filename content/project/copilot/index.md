@@ -30,10 +30,10 @@ links:
     name: Video
     url: https://www.youtube.com/watch?v=A6j80I97Slg
 
-url_code: https://github.com/Lancelot39/Causal-Copilot
+url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: https://www.youtube.com/watch?v=A6j80I97Slg
+url_video: ''
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
