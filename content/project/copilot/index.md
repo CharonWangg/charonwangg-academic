@@ -1,5 +1,5 @@
 ---
-title: Causal-Copilot: An Autonomous Causal Analysis Agent
+title: 'Causal-Copilot: An Autonomous Causal Analysis Agent'
 summary: A toolkit that integrates LLM capabilities and domain expertise to enable automated causal analysis for scientific researchers and data scientists.
 tags:
   - Causal Analysis
