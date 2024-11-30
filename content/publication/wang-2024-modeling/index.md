@@ -1,16 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Learning domain-specific causal discovery from time series
+title: Modeling Unseen Environments with Language-guided Composable Causal Components
+  in Reinforcement Learning
 subtitle: ''
 summary: ''
 authors:
 - Xinyue Wang
-- Konrad Kording
+- Biwei Huang
 tags: []
 categories: []
-date: '2023-01-01'
-lastmod: 2024-11-30T00:07:25-08:00
+date: '2024-01-01'
+lastmod: 2024-11-30T00:07:26-08:00
 featured: false
 draft: false
 
@@ -28,12 +29,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2024-11-30T08:07:18.791772Z'
+publishDate: '2024-11-30T08:07:26.142772Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Transactions on Machine Learning Research*'
-links:
-- name: URL
-  url: https://openreview.net/forum?id=JFaZ94tT8M
+publication: '*arXiv preprint*'
 ---

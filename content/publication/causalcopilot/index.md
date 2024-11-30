@@ -1,16 +1,19 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Learning domain-specific causal discovery from time series
+title: 'Causal-Copilot: An Autonomous Causal Analysis Agent'
 subtitle: ''
 summary: ''
 authors:
 - Xinyue Wang
-- Konrad Kording
+- Kun Zhou
+- Wenyi Wu
+- Fang Nan
+- Biwei Huang
 tags: []
 categories: []
-date: '2023-01-01'
-lastmod: 2024-11-30T00:07:25-08:00
+date: '2024-01-01'
+lastmod: 2024-11-30T00:07:26-08:00
 featured: false
 draft: false
 
@@ -28,12 +31,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2024-11-30T08:07:18.791772Z'
+publishDate: '2024-11-30T08:07:25.912957Z'
 publication_types:
-- '2'
+- '1'
 abstract: ''
-publication: '*Transactions on Machine Learning Research*'
-links:
-- name: URL
-  url: https://openreview.net/forum?id=JFaZ94tT8M
+publication: ''
 ---
