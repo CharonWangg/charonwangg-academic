@@ -1,5 +1,5 @@
 ---
-title: Real-time Phase Locked Neural Feedback System Development
+title: A Millisecond-level Phase Locked Neural Feedback System
 summary: A millisecond-level phase locked neural feedback system based on OpenBCI
 tags:
   - Brain Computer Interface
@@ -14,9 +14,9 @@ image:
   focal_point: Smart
 
 links:
-  - icon: graduation-cap
+  - icon: file-pdf
     icon_pack: fas
-    name: Publications
+    name: Paper
     url: https://dl.acm.org/doi/pdf/10.1145/3431943.3432284
 url_code: ''
 url_pdf: ''

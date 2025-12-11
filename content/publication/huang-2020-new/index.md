@@ -6,15 +6,15 @@ title: A new species of the genus Sovia Evans, 1949 from South Central Yunnan, C
 subtitle: ''
 summary: ''
 authors:
-- Si-Yao Huang
-- Xin-Yue Wang
-- Xiao-Ling Fan
+# - Si-Yao Huang
+# - Xin-Yue Wang
+# - Xiao-Ling Fan
 tags: []
 categories: []
 date: '2020-01-01'
 lastmod: 2024-11-30T00:07:25-08:00
 featured: false
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -34,5 +34,6 @@ publishDate: '2024-11-30T08:07:25.698612Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Zootaxa*'
+# publication: '*Zootaxa*'
+# This publication has been commented out/hidden from lists.
 ---

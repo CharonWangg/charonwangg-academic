@@ -1,0 +1,8 @@
+{{- /* 
+  rawhtml shortcode
+  Usage: {{< rawhtml >}} ...raw HTML... {{< /rawhtml >}}
+  Simply outputs the inner content as safe HTML so that
+  complex Bootstrap markup can be used inside Markdown widgets.
+*/ -}}
+{{- .Inner | safeHTML -}}
+

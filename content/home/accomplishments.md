@@ -26,13 +26,13 @@ item:
   - date_end: ''
     date_start: '2024-01-01'
     description: |2-
-        Served as a peer reviewer for prestigious conferences and journals including UAI (2024), CLeaR (2024), RLC (2024), and TMLR.
+        Served as a peer reviewer for prestigious conferences and journals including ICLR (2026), UAI (2025), CLeaR (2025), RLC (2024), and TMLR.
     organization: Academic Activities
     title: 'Peer Reviewer'
   - date_end: ''
     date_start: '2021-03-01'
     description: |2-
-        Participated and won more than two silver medals in the Kaggle Competitions:
+        Participated in and won silver and bronze medals in the Kaggle Competitions:
 
         * 17th place [Sartorius - Cell Instance Segmentation (Top 1%)](https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation)
         * 32nd place [UW-Madison GI Tract Image Segmentation (Top 2%)](https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation)

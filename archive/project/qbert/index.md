@@ -20,7 +20,7 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/Vopaaz/QBert
-  - icon: graduation-cap
+  - icon: file-pdf
     icon_pack: fas
     name: Report
     url: https://drive.google.com/file/d/1_-skbKjRM57S6QSk4kMzhOnZT3HgY0ij/view?usp=sharing

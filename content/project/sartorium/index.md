@@ -17,9 +17,9 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/CharonWangg/Kaggle_Sartorius_Neurons_Segmentation
-  - icon: graduation-cap
+  - icon: file-pdf
     icon_pack: fas
-    name: Report
+    name: Paper
     url: https://drive.google.com/file/d/1QRQRx9shkoma-GDDAwCDP5JioBI8GZnu/view?usp=sharing
 url_code: ''
 url_pdf: ''

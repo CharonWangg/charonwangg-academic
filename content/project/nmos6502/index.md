@@ -19,9 +19,9 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/KordingLab/LearningCausalDiscovery
-  - icon: graduation-cap
+  - icon: file-pdf
     icon_pack: fas
-    name: Publications
+    name: Paper
     url: https://arxiv.org/abs/2209.05598
 url_code: ''
 url_pdf: ''

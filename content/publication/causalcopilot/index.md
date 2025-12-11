@@ -8,8 +8,13 @@ authors:
 - Xinyue Wang
 - Kun Zhou
 - Wenyi Wu
+- Har Simrat Singh
 - Fang Nan
-- Biwei Huang
+- Songyao Jin
+- Aryan Philip
+- Saloni Patnaik
+- Hou Zhu
+- Shivam Singh
 tags: []
 categories: []
 date: '2024-01-01'
@@ -35,5 +40,7 @@ publishDate: '2024-11-30T08:07:25.912957Z'
 publication_types:
 - '1'
 abstract: ''
-publication: ''
+publication: '*arXiv preprint arXiv:2504.13263*'
+#
+# Updated to reflect the 2025 arXiv preprint version of Causal-Copilot.
 ---

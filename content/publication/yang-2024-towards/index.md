@@ -37,5 +37,6 @@ publishDate: '2024-11-30T08:07:26.038446Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*arXiv preprint arXiv:2407.20651*'
+publication: '*The Thirteenth International Conference on Learning Representations (ICLR 2025)*'
+# Updated to reflect the ICLR 2025 version of this work.
 ---
