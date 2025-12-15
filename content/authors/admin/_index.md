@@ -80,7 +80,7 @@ highlight_name: true
 Hi! I am a PhD student in the Halıcıoğlu Data Science Institute (HDSI) at [UC San Diego](https://datascience.ucsd.edu/), advised by [Dr. Biwei Huang](https://biweihuang.com/).
 I build scalable causal learning methods that help foundation models and agents learn structured world models—supporting robust generalization and long-horizon decision making.
 
-My recent work spans causal learning from time series at scale, causality-guided world modeling for reinforcement learning generalization, and agentic systems for end-to-end causal analysis.
+My recent work spans causal learning from time series at scale, causality-guided world modeling for reinforcement learning generalization, and agentic systems for end-to-end causal analysis. Before joining UCSD, I worked with [Dr. Konrad Kording](http://koerding.com/) on learning domain-specific causal discovery for large complex systems. I am also interested in brain-computer interfaces and computational neuroscience, and previously worked on neurofeedback systems advised by [Dr. Gan Huang](https://huanggan.site/).
 
 [//]: # ( Currently, I am doing causality-related research in HDSI, supervised by [Dr. Biwei Huang]&#40;https://biweihuang.com/&#41;. Before joining in UCSD,)
 
@@ -95,9 +95,6 @@ My recent work spans causal learning from time series at scale, causality-guided
 [//]: # ( development in [MINDLab]&#40;http://www.zgzhang-lab.net/&#41;, Advised by [Dr. Gan Huang]&#40;https://huanggan.site/&#41;. )
 
 [//]: # ( Meanwhile, I am a data science enthusiast and excited about applying machine learning to solve real-world problems, have won multiple medals on [Kaggle]&#40;https://www.kaggle.com/&#41;.)
-
-Before joining UCSD, I worked with [Dr. Konrad Kording](http://koerding.com/) on learning domain-specific causal discovery for large complex systems.
-I am also interested in brain-computer interfaces and computational neuroscience, and previously worked on neurofeedback systems advised by [Dr. Gan Huang](https://huanggan.site/).
 
 [//]: # (Path: content/authors/admin/_index.md)
 
