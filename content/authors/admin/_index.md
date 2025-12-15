@@ -6,7 +6,7 @@ title: Xinyue Wang
 superuser: true
 
 # Role/position/tagline
-role: PhD Student of Data Science
+role: PhD Student (HDSI @ UCSD)
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,13 +14,14 @@ organizations:
     url: https://datascience.ucsd.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Causal Discovery, Causal Representation Learning and Causal Machine Learning
+bio: Scalable causal learning, world models, and agents.
 
 # Interests to show in About widget
 interests:
-  - Causal Discovery
-  - Causal Representation Learning
-  - Causal Machine Learning
+  - Scalable Causal Learning
+  - World Models
+  - Agentic Systems
+  - Foundation Models
 
 # Education to show in About widget
 education:
@@ -49,7 +50,7 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/CharonWangg
-  - icon: file-pdf # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?hl=en&user=fLTrCAQAAAAJ
   - icon: github
@@ -76,10 +77,10 @@ email: 'xiw159@ucsd.edu'
 highlight_name: true
 ---
 
-Hi! I am a PhD student in the Halıcıoğlu Data Science Institute (HDSI) at [University of California San Diego](https://datascience.ucsd.edu/).
-My research interest lays in the intersection of Causality and Machine Learning, include Causal Discovery, Causal Representation Learning 
-and Causal Machine Learning. My ultimate question is, can we discover world model with the self-consistent loop of
-autonomously Causal Discovery and Causal Inference.
+Hi! I am a PhD student in the Halıcıoğlu Data Science Institute (HDSI) at [UC San Diego](https://datascience.ucsd.edu/), advised by [Dr. Biwei Huang](https://biweihuang.com/).
+I build scalable causal learning methods that help foundation models and agents learn structured world models—supporting robust generalization and long-horizon decision making.
+
+My recent work spans causal learning from time series at scale, causality-guided world modeling for reinforcement learning generalization, and agentic systems for end-to-end causal analysis.
 
 [//]: # ( Currently, I am doing causality-related research in HDSI, supervised by [Dr. Biwei Huang]&#40;https://biweihuang.com/&#41;. Before joining in UCSD,)
 
@@ -95,10 +96,8 @@ autonomously Causal Discovery and Causal Inference.
 
 [//]: # ( Meanwhile, I am a data science enthusiast and excited about applying machine learning to solve real-world problems, have won multiple medals on [Kaggle]&#40;https://www.kaggle.com/&#41;.)
 
-Currently, I conduct causality-related research in HDSI, advised by [Dr. Biwei Huang](https://biweihuang.com/). Before joining in UCSD,
-I mainly focused on developing automated causal discovery algorithm for large complex system, advised by 
-[Dr. Konrad Kording](http://koerding.com/). I am also interested in Brain-Computer Interface and Computational Neuroscience, 
-and conducted research related to Neurofeedback system advised by [Dr. Gan Huang](https://huanggan.site/). Meanwhile, I am a data science enthusiast, have won multiple medals on Kaggle.
+Before joining UCSD, I worked with [Dr. Konrad Kording](http://koerding.com/) on learning domain-specific causal discovery for large complex systems.
+I am also interested in brain-computer interfaces and computational neuroscience, and previously worked on neurofeedback systems advised by [Dr. Gan Huang](https://huanggan.site/).
 
 [//]: # (Path: content/authors/admin/_index.md)
 

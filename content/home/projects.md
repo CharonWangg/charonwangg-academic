@@ -22,9 +22,10 @@ design:
   <!-- Filter Buttons -->
   <div class="project-filters">
     <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="causal">Causal Discovery</button>
-    <button class="filter-btn" data-filter="ml">Machine Learning</button>
-    <button class="filter-btn" data-filter="neuro">Neuroscience</button>
+    <button class="filter-btn" data-filter="causality">Causality</button>
+    <button class="filter-btn" data-filter="world-model">World Model</button>
+    <button class="filter-btn" data-filter="agent">Agent</button>
+    <button class="filter-btn" data-filter="bci">Brain-Computer Interface</button>
   </div>
 
   <!-- Timeline -->
@@ -38,7 +39,7 @@ design:
 
       <div class="project-grid">
         <!-- Transformer Causal Learner - 上下布局 -->
-        <div class="project-card" data-category="causal">
+        <div class="project-card" data-category="causality">
           <div class="project-card-inner with-image layout-vertical">
             <div class="project-image">
               <a href="/project/transformers-scale-discovery/">
@@ -48,7 +49,7 @@ design:
             <div class="project-content">
               <div class="project-meta">
                 <span class="project-date">Dec 2025</span>
-                <span class="project-tag">Causal Discovery</span>
+                <span class="project-tag">Causality</span>
               </div>
               <h3 class="project-title">
                 <a href="/project/transformers-scale-discovery/">Transformer Is Inherently a Causal Learner</a>
@@ -62,7 +63,7 @@ design:
         </div>
 
         <!-- WM3C - 左右布局 -->
-        <div class="project-card" data-category="causal ml">
+        <div class="project-card" data-category="causality world-model">
           <div class="project-card-inner with-image layout-horizontal">
             <div class="project-image">
               <a href="/project/wm3c/">
@@ -72,7 +73,8 @@ design:
             <div class="project-content">
               <div class="project-meta">
                 <span class="project-date">Feb 2025</span>
-                <span class="project-tag">ICLR 2025</span>
+                <span class="project-tag">World Model</span>
+                <span class="project-tag">Causality</span>
               </div>
               <h3 class="project-title">
                 <a href="/project/wm3c/">WM3C: World Modeling with Compositional Causal Components</a>
@@ -96,7 +98,7 @@ design:
 
       <div class="project-grid">
         <!-- Causal-Copilot - 上下布局 -->
-        <div class="project-card" data-category="causal ml">
+        <div class="project-card" data-category="causality agent">
           <div class="project-card-inner with-image layout-vertical">
             <div class="project-image">
               <a href="/project/copilot/">
@@ -106,7 +108,8 @@ design:
             <div class="project-content">
               <div class="project-meta">
                 <span class="project-date">Nov 2024</span>
-                <span class="project-tag">LLM Agent</span>
+                <span class="project-tag">Agent</span>
+                <span class="project-tag">Causality</span>
               </div>
               <h3 class="project-title">
                 <a href="/project/copilot/">Causal-Copilot: Autonomous Causal Analysis Agent</a>
@@ -132,7 +135,7 @@ design:
 
       <div class="project-grid">
         <!-- Learning Causal Discovery - 左右布局 -->
-        <div class="project-card" data-category="causal ml">
+        <div class="project-card" data-category="causality">
           <div class="project-card-inner with-image layout-horizontal">
             <div class="project-image">
               <a href="/project/nmos6502/">
@@ -142,7 +145,7 @@ design:
             <div class="project-content">
               <div class="project-meta">
                 <span class="project-date">TMLR 2023</span>
-                <span class="project-tag">Causal Discovery</span>
+                <span class="project-tag">Causality</span>
               </div>
               <h3 class="project-title">
                 <a href="/project/nmos6502/">Learning Causal Discovery</a>
@@ -157,7 +160,7 @@ design:
         </div>
 
         <!-- OpenBCI - 上下布局 -->
-        <div class="project-card" data-category="neuro">
+        <div class="project-card" data-category="bci">
           <div class="project-card-inner with-image layout-vertical">
             <div class="project-image">
               <a href="/project/openbci/">
@@ -181,7 +184,7 @@ design:
         </div>
 
         <!-- Sartorius - 左右布局 -->
-        <div class="project-card" data-category="ml">
+        <div class="project-card" data-category="">
           <div class="project-card-inner with-image layout-horizontal">
             <div class="project-image">
               <a href="/project/sartorium/">
@@ -213,6 +216,7 @@ design:
 document.addEventListener('DOMContentLoaded', function() {
   const filterBtns = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.project-card');
+  const timelineYears = document.querySelectorAll('.timeline-year');
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', function() {
@@ -231,6 +235,18 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
           card.style.display = 'none';
         }
+      });
+
+      // Hide empty year sections
+      timelineYears.forEach(yearSection => {
+        const visibleCards = yearSection.querySelectorAll('.project-card[style*="display: block"], .project-card:not([style*="display"])');
+        let hasVisible = false;
+        visibleCards.forEach(card => {
+          if (card.style.display !== 'none') {
+            hasVisible = true;
+          }
+        });
+        yearSection.style.display = hasVisible ? 'block' : 'none';
       });
     });
   });
