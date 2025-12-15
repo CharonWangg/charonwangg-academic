@@ -675,6 +675,91 @@
       transform: translateY(0);
     }
   }
+
+  /* ===== Cellular Automata Background Styles ===== */
+
+  /* Canvas container for About section */
+  .ca-canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .ca-canvas-container.ca-loaded {
+    opacity: 1;
+  }
+
+  #ca-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+  }
+
+  /* About section needs relative positioning for CA overlay */
+  #about {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Ensure about content stays above CA */
+  #about .container,
+  #about .row,
+  #about .col-12 {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Light mode: very subtle CA */
+  .ca-canvas-container {
+    opacity: 0.08;
+  }
+
+  .ca-canvas-container.ca-loaded {
+    opacity: 0.10;
+  }
+
+  /* Dark mode: more visible CA */
+  body.dark .ca-canvas-container {
+    opacity: 0.15;
+  }
+
+  body.dark .ca-canvas-container.ca-loaded {
+    opacity: 0.25;
+  }
+
+  /* Subtle vignette effect for About section in dark mode */
+  body.dark #about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  /* Subtle glow effect on profile image in dark mode */
+  body.dark #about .avatar {
+    box-shadow: 0 0 30px rgba(62, 207, 142, 0.15);
+    transition: box-shadow 0.3s ease;
+  }
+
+  body.dark #about .avatar:hover {
+    box-shadow: 0 0 40px rgba(62, 207, 142, 0.25);
+  }
 </style>
 
   <script>
@@ -700,5 +785,399 @@
         });
       });
     });
+  </script>
+
+  <!-- Cellular Automata Background for About Section -->
+  <script>
+  (function() {
+    'use strict';
+
+    // ============================================================================
+    // CONFIGURATION
+    // ============================================================================
+    const CA_CONFIG = {
+      cellSize: 16,                    // Size of each cell in pixels
+      spawnRate: 0.08,                 // Initial probability of cell being alive
+      updateInterval: 16,              // Update CA logic every N frames (slower = more elegant)
+      trailDecay: 0.025,               // How fast dead cells fade out
+      glowIntensity: 8,                // Glow blur radius for alive cells
+      breatheSpeed: 600,               // Speed of breathing animation (ms)
+      interactionRadius: 2,            // Radius of cells affected by mouse
+      interactionSpawnChance: 0.4,     // Chance to spawn cell on interaction
+    };
+
+    // Color schemes for light/dark modes
+    const COLORS = {
+      light: {
+        alive: { r: 62, g: 207, b: 142 },    // #3ECF8E (site accent color)
+        dead: { r: 248, g: 249, b: 250 },    // Very light gray background
+        trail: { r: 62, g: 207, b: 142 },    // Same as alive for trails
+      },
+      dark: {
+        alive: { r: 16, g: 185, b: 129 },    // Emerald green (like reference)
+        dead: { r: 15, g: 23, b: 42 },       // Dark blue-gray background
+        trail: { r: 16, g: 185, b: 129 },    // Same as alive for trails
+      }
+    };
+
+    // Classic Game of Life patterns for easter eggs
+    const GOL_PATTERNS = {
+      glider: [
+        [0, 1, 0],
+        [0, 0, 1],
+        [1, 1, 1],
+      ],
+      blinker: [
+        [1, 1, 1],
+      ],
+      toad: [
+        [0, 1, 1, 1],
+        [1, 1, 1, 0],
+      ],
+      beacon: [
+        [1, 1, 0, 0],
+        [1, 1, 0, 0],
+        [0, 0, 1, 1],
+        [0, 0, 1, 1],
+      ],
+      rpentomino: [  // Famous methuselah pattern
+        [0, 1, 1],
+        [1, 1, 0],
+        [0, 1, 0],
+      ],
+      lwss: [  // Lightweight spaceship
+        [0, 1, 0, 0, 1],
+        [1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1],
+        [1, 1, 1, 1, 0],
+      ],
+    };
+
+    // ============================================================================
+    // STATE
+    // ============================================================================
+    let canvas = null;
+    let ctx = null;
+    let grid = [];
+    let cols = 0;
+    let rows = 0;
+    let animationId = null;
+    let frameCount = 0;
+    let isDarkMode = false;
+
+    // ============================================================================
+    // HELPER FUNCTIONS
+    // ============================================================================
+
+    function isDark() {
+      return document.body.classList.contains('dark');
+    }
+
+    function getColors() {
+      return isDark() ? COLORS.dark : COLORS.light;
+    }
+
+    // ============================================================================
+    // GRID INITIALIZATION
+    // ============================================================================
+
+    function initGrid() {
+      const total = cols * rows;
+      grid = new Array(total).fill(null).map(() => ({
+        state: Math.random() < CA_CONFIG.spawnRate ? 1 : 0,
+        age: 0,
+        trail: 0,
+      }));
+    }
+
+    function seedPattern(patternName, startX, startY) {
+      const pattern = GOL_PATTERNS[patternName];
+      if (!pattern) return;
+
+      pattern.forEach((row, dy) => {
+        row.forEach((cell, dx) => {
+          if (cell === 1) {
+            const x = (startX + dx + cols) % cols;
+            const y = (startY + dy + rows) % rows;
+            const idx = y * cols + x;
+            if (grid[idx]) {
+              grid[idx].state = 1;
+              grid[idx].age = 0;
+              grid[idx].trail = 1.0;
+            }
+          }
+        });
+      });
+    }
+
+    function seedInitialPatterns() {
+      // Seed a few gliders and patterns for initial visual interest
+      seedPattern('glider', Math.floor(cols * 0.15), Math.floor(rows * 0.2));
+      seedPattern('glider', Math.floor(cols * 0.7), Math.floor(rows * 0.3));
+      seedPattern('blinker', Math.floor(cols * 0.4), Math.floor(rows * 0.6));
+      seedPattern('glider', Math.floor(cols * 0.5), Math.floor(rows * 0.8));
+    }
+
+    // ============================================================================
+    // GAME OF LIFE LOGIC
+    // ============================================================================
+
+    function updateGridLogic() {
+      const currentStates = grid.map(c => c.state);
+
+      for (let i = 0; i < grid.length; i++) {
+        const cell = grid[i];
+        const x = i % cols;
+        const y = Math.floor(i / cols);
+
+        // Count alive neighbors (with wrapping)
+        let neighbors = 0;
+        for (let dy = -1; dy <= 1; dy++) {
+          for (let dx = -1; dx <= 1; dx++) {
+            if (dx === 0 && dy === 0) continue;
+            const nx = (x + dx + cols) % cols;
+            const ny = (y + dy + rows) % rows;
+            const ni = ny * cols + nx;
+            if (currentStates[ni]) neighbors++;
+          }
+        }
+
+        // Apply Conway's Game of Life rules
+        const isAlive = cell.state === 1;
+        if (isAlive && (neighbors === 2 || neighbors === 3)) {
+          // Survives
+          cell.age++;
+          cell.trail = 1.0;
+        } else if (!isAlive && neighbors === 3) {
+          // Birth
+          cell.state = 1;
+          cell.age = 0;
+          cell.trail = 1.0;
+        } else {
+          // Death
+          cell.state = 0;
+          cell.age = 0;
+        }
+      }
+    }
+
+    function updateVisualsOnly() {
+      // Update trail decay for dead cells
+      for (let i = 0; i < grid.length; i++) {
+        if (grid[i].state === 0 && grid[i].trail > 0) {
+          grid[i].trail -= CA_CONFIG.trailDecay;
+          if (grid[i].trail < 0) grid[i].trail = 0;
+        }
+      }
+    }
+
+    // ============================================================================
+    // RENDERING
+    // ============================================================================
+
+    function drawGrid() {
+      const colors = getColors();
+      const cellSize = CA_CONFIG.cellSize;
+
+      // Clear canvas with background color
+      ctx.fillStyle = `rgb(${colors.dead.r}, ${colors.dead.g}, ${colors.dead.b})`;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Draw cells
+      for (let i = 0; i < grid.length; i++) {
+        const cell = grid[i];
+        if (cell.trail <= 0.01) continue;
+
+        const col = i % cols;
+        const row = Math.floor(i / cols);
+        const centerX = col * cellSize + cellSize / 2;
+        const centerY = row * cellSize + cellSize / 2;
+
+        ctx.beginPath();
+
+        let radius;
+        if (cell.state === 1) {
+          // Alive cell: breathing animation + age-based color shift
+          const breathe = Math.sin(Date.now() / CA_CONFIG.breatheSpeed + col * 0.5) * 0.1;
+          radius = (cellSize / 2) * (0.6 + breathe);
+
+          // Age-based color transition (green -> cyan/blue)
+          const ageFactor = Math.min(cell.age, 60) / 60;
+          const r = colors.alive.r - (ageFactor * 10);
+          const g = colors.alive.g - (ageFactor * 20);
+          const b = colors.alive.b + (ageFactor * 80);
+
+          ctx.fillStyle = `rgb(${r}, ${g}, ${b})`;
+
+          // Glow effect
+          ctx.shadowBlur = CA_CONFIG.glowIntensity + (Math.sin(Date.now() / 300) * 3);
+          ctx.shadowColor = `rgba(${r}, ${g}, ${b}, 0.6)`;
+        } else {
+          // Dead cell with trail: fading effect
+          radius = (cellSize / 2) * 0.35 * cell.trail;
+          const alpha = cell.trail * 0.4;
+          ctx.fillStyle = `rgba(${colors.trail.r}, ${colors.trail.g}, ${colors.trail.b}, ${alpha})`;
+          ctx.shadowBlur = 0;
+        }
+
+        ctx.arc(centerX, centerY, radius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      }
+    }
+
+    // ============================================================================
+    // ANIMATION LOOP
+    // ============================================================================
+
+    function animate() {
+      frameCount++;
+
+      // Update logic at slower interval for elegant movement
+      if (frameCount % CA_CONFIG.updateInterval === 0) {
+        updateGridLogic();
+      } else {
+        updateVisualsOnly();
+      }
+
+      drawGrid();
+      animationId = requestAnimationFrame(animate);
+    }
+
+    // ============================================================================
+    // INTERACTION HANDLERS
+    // ============================================================================
+
+    function handleInteraction(e) {
+      if (!canvas) return;
+
+      const rect = canvas.getBoundingClientRect();
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+
+      const x = Math.floor((clientX - rect.left) / CA_CONFIG.cellSize);
+      const y = Math.floor((clientY - rect.top) / CA_CONFIG.cellSize);
+
+      const radius = CA_CONFIG.interactionRadius;
+      for (let dy = -radius; dy <= radius; dy++) {
+        for (let dx = -radius; dx <= radius; dx++) {
+          const nx = (x + dx + cols) % cols;
+          const ny = (y + dy + rows) % rows;
+          const idx = ny * cols + nx;
+
+          if (idx >= 0 && idx < grid.length && Math.random() < CA_CONFIG.interactionSpawnChance) {
+            grid[idx].state = 1;
+            grid[idx].age = 0;
+            grid[idx].trail = 1.0;
+          }
+        }
+      }
+    }
+
+    // ============================================================================
+    // INITIALIZATION
+    // ============================================================================
+
+    function setupCanvas() {
+      const aboutSection = document.getElementById('about');
+      if (!aboutSection) {
+        console.warn('CA: #about section not found');
+        return false;
+      }
+
+      // Create canvas container
+      const container = document.createElement('div');
+      container.className = 'ca-canvas-container';
+
+      // Create canvas
+      canvas = document.createElement('canvas');
+      canvas.id = 'ca-canvas';
+      container.appendChild(canvas);
+
+      // Insert at beginning of about section
+      aboutSection.insertBefore(container, aboutSection.firstChild);
+
+      // Get context
+      ctx = canvas.getContext('2d', { alpha: false });
+
+      return true;
+    }
+
+    function resizeCanvas() {
+      if (!canvas) return;
+
+      const aboutSection = document.getElementById('about');
+      if (!aboutSection) return;
+
+      const rect = aboutSection.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      canvas.style.width = `${rect.width}px`;
+      canvas.style.height = `${rect.height}px`;
+
+      ctx.scale(dpr, dpr);
+
+      cols = Math.ceil(rect.width / CA_CONFIG.cellSize);
+      rows = Math.ceil(rect.height / CA_CONFIG.cellSize);
+
+      initGrid();
+      setTimeout(seedInitialPatterns, 100);
+    }
+
+    function observeDarkMode() {
+      // Watch for dark mode changes
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (mutation.attributeName === 'class') {
+            const newDarkMode = isDark();
+            if (newDarkMode !== isDarkMode) {
+              isDarkMode = newDarkMode;
+              // Colors will update on next draw
+            }
+          }
+        });
+      });
+
+      observer.observe(document.body, { attributes: true });
+    }
+
+    function init() {
+      if (!setupCanvas()) return;
+
+      isDarkMode = isDark();
+      resizeCanvas();
+
+      // Event listeners
+      window.addEventListener('resize', () => {
+        resizeCanvas();
+      });
+
+      canvas.addEventListener('mousemove', handleInteraction);
+      canvas.addEventListener('touchmove', handleInteraction, { passive: true });
+      canvas.addEventListener('click', handleInteraction);
+
+      observeDarkMode();
+
+      // Start animation
+      animate();
+
+      // Mark as loaded (triggers opacity transition)
+      setTimeout(() => {
+        const container = document.querySelector('.ca-canvas-container');
+        if (container) container.classList.add('ca-loaded');
+      }, 100);
+
+      console.log('🧬 Cellular Automata initialized.');
+    }
+
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
   </script>
 </body>
