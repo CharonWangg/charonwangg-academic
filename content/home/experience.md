@@ -89,7 +89,7 @@ design:
     <div class="exp-timeline-item">
       <div class="exp-timeline-dot"></div>
       <div class="exp-timeline-content">
-        <div class="exp-timeline-date">Jan 2025 – Present</div>
+        <div class="exp-timeline-date">Jan 2025 – Oct 2025</div>
         <div class="exp-timeline-card-header">
           <img class="exp-timeline-logo" src="/media/icons/brands/abel-ai.png" alt="Abel AI">
           <div class="exp-timeline-info">
